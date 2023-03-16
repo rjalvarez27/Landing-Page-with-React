@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Reusable/Card.jsx";
+import Card from "./Card.jsx";
 
 export const Hero = () => {
     const value = {
