@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = (props) => {
+const Card = ({name,posicion,description}) => {
     
     return (
         
@@ -8,10 +8,10 @@ const Card = (props) => {
             <div className="card m-3 ">
                 <img className="card-img-top " src="https://picsum.photos/200" alt="" />
                 <div className="card-body">
-                    <h5 className="card-title text-center">{props.name}</h5>
-                    <p className="card-text text-center">{props.posicion}</p>
+                    <h5 className="card-title text-center">{name}</h5>
+                    <p className="card-text text-center">{posicion}</p>
                     <div className="card-footer bg-light d-flex justify-content-center align-items-center">
-                        <p href="#" className="btn btn-primary text-center"><strong>{props.description}</strong></p>
+                        <p href="#" className="btn btn-primary text-center"><strong>{description}</strong></p>
                     </div>
                 </div>
             </div>
