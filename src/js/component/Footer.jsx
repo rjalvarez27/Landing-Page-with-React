@@ -4,7 +4,7 @@ import React from "react";
   return (
     <div>
       <div className="p-4 bg-dark d-flex justify-content-center align-items-center">
-        <p className="text-white"> Copyright <i class="far fa-copyright"></i> Your Website 2008 </p>              
+        <p className="text-white"> Copyright <i className="far fa-copyright"></i> Your Website 2008 </p>              
       </div>
     </div>
   );
